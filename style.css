@@ -1,0 +1,57 @@
+/* Estilo do header */
+header {
+    background-color: #261d75;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0; 
+    /* Adiciona espaço acima e abaixo do conteúdo */
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 40px; 
+    /* Espaçamento entre os links de navegação */
+    border: 5px solid #fff; 
+    /* Adiciona uma borda ao redor dos links */
+    padding: 5px 10px; 
+    /* Espaçamento interno dentro das caixas dos links */
+    border-radius: 5px; 
+    /* Borda arredondada nas caixas dos links */
+}
+
+/* Estilizando a barra de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px; 
+    /* Tamanho maior para o título principal */
+}
+
+p {
+    text-align: center;
+    font-size: 18px; 
+    /* Tamanho maior para o texto do parágrafo */
+}
+
+/* Estilizando os links do menu de navegação quando estão ativos (por exemplo, a página atual) */
+nav a.active {
+    font-weight: bold; 
+    /* Deixa o link da página atual em negrito */
+}
